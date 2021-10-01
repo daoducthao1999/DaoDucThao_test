@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website bán hàng</title>
+  <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+  <link rel="stylesheet" type="text/css" href="stars.css">
+  <link rel="stylesheet" type="text/css" href="slide.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="slide.js"></script>
+</head>
+
+<body>
+  <div>
+  <!--  <div class="stars">
+    <p style="font-size:15px; font-weight:bold;color:black">Đánh giá </p>
+    <form action="">
+      <input type="radio" class="star star-5" id="star-5" name="star">
+      <label class="star star-5" for="star-5"></label>
+      <input type="radio" class="star star-4" id="star-4" name="star">
+      <label class="star star-4" for="star-4"></label>
+      <input type="radio" class="star star-3" id="star-3" name="star">
+      <label class="star star-3" for="star-3"></label>
+      <input type="radio" class="star star-2" id="star-2" name="star">
+      <label class="star star-2" for="star-2"></label>
+      <input type="radio" class="star star-1" id="star-1" name="star">
+      <label class="star star-1" for="star-1"></label>
+    </form>
+  </div> -->
+  <div style="display: flex;">
+    <div style="margin-left: 215px;">
+      <img src="images/sua1.jpg" style="width: 100px;height: 100px;" idx="0"><br>
+      <img src="images/sua2.jpg" style="width: 100px;height: 100px;" idx="1"><br>
+      <img src="images/sua3.jpg" style="width: 100px;height: 100px;" idx="2"><br>
+      <img src="images/sua4.png" style="width: 100px;height: 100px;" idx="3">
+    </div>
+
+    <div class="container" style="margin-left: 50px;">
+      <img class="slide" src="images/sua1.jpg" idx="0" alt="">
+      <img class="slide" src="images/sua2.jpg" idx="1" alt="">
+      <img class="slide" src="images/sua3.jpg" idx="2" alt="">
+      <img class="slide" src="images/sua4.png" idx="3" alt="">
+    </div>
+
+    <div style="margin-right: 100px;margin-top: 30px;;font-size: 22px;">
+      <span style="font-weight: bold;"> SỮA BỘT CHO TRẺ EM</span>
+
+      <div class="stars">
+        <form action="">
+          <input type="radio" class="star star-5" id="star-5" name="star">
+          <label class="star star-5" for="star-5"></label>
+          <input type="radio" class="star star-4" id="star-4" name="star">
+          <label class="star star-4" for="star-4"></label>
+          <input type="radio" class="star star-3" id="star-3" name="star">
+          <label class="star star-3" for="star-3"></label>
+          <input type="radio" class="star star-2" id="star-2" name="star">
+          <label class="star star-2" for="star-2"></label>
+          <input type="radio" class="star star-1" id="star-1" name="star">
+          <label class="star star-1" for="star-1"></label>
+        </form>
+      </div>
+      <div class="price">
+        <p>200.000 đ &nbsp <span class="opacity">189.000 đ</span></p>
+      </div>
+      <div>
+        <input type="radio" name="colors" id="red"> <span style="font-size: 20px;"> Có sữa</span> <br>
+        <input type="radio" name="colors" id="blue"><span style="font-size: 20px;"> Không có sữa </span>
+      </div>
+      <div style="margin-top: 12px;">
+        <input type="textbox" name="quantity" id="quantity" placeholder="Số lượng *" style="width: 85px;height: 25px;">
+        <button style="width: 163px;height: 31px;background: red;color: white;margin-left: 8px;">Thêm vào giỏ
+          hàng</button>
+      </div>
+
+      <div>
+        <ul>
+          <li class="vitamin">Bổ sung Vitamin và nguồn năng lượng</li>
+          <li class="vitamin">Bổ sung Vitamin và nguồn năng lượng</li>
+          <li class="vitamin">Bổ sung Vitamin và nguồn năng lượng</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="address">
+      <div class="address1"><span>TÙY CHỌN GIAO HÀNG</span> </div>
+      <hr>
+      <div style="height: 26px;"> <i class="fas fa-map-marker-alt location"></i>
+        <span style="margin-left: 9px;">Cống Vị, Ba Đình, Hà Nội</span> <span
+          style="color: #0099FF;margin-left: 8px">Thay đổi</span>
+      </div>
+      <hr>
+      <div style="height: 56px;">
+        <div style="display: flex;">
+          <div style="margin-top: 15px;">
+            <i class="fas fa-shopping-cart cart"></i>
+          </div>
+          <div>
+            <span style="margin-left: 5px;">Giao hàng tiêu chuẩn</span> 
+          </div>
+          <div style="margin-top:16px;">
+            <span style="margin-left: 48px">Miễn phí</span>
+          </div>
+        </div>
+        <div style="opacity: 0.5; margin-left: 52px; margin-top: -11px;">Nhận hàng sau 3 ngày</div>
+      </div>
+      <hr>
+      <div style="height: 56px;">
+        <div style="display: flex">
+          <div style="margin-top: 15px;"><i class="fas fa-truck fast"></i></div>
+          <div>
+
+            <span style="margin-left: 5px;">Giao hàng nhanh</span> 
+           
+          </div>
+          <div style="margin-top: 16px;">
+            <span style="margin-left: 74px">20.000đ</span>
+          </div>
+        </div>
+         <div style="opacity: 0.5;margin-left: 55px;margin-top: -11px;">Nhận hàng vào ngày mai</div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div>
+    <div class="evaluate">Đánh giá sản phẩm</div>
+    <div class="evaluate1">Sản phẩm chưa có đánh giá</div>
+    <div class="evaluate2">Viết đánh giá của bạn</div>
+    <div  style=" margin-left: 233px;   width: 500px;
+    height: 270px;
+    border: 1px solid silver;margin-top: 5px;">
+      
+      <div class="stars1" style="margin-bottom: -12px;">
+   
+         <form action="" style="margin-right: -84px;">
+          <input type="radio" class="star star-51" id="star-51" name="star1">
+          <label class="star1 star-51" for="star-51" style="font-size: 25px;"></label>
+          <input type="radio" class="star star-41" id="star-41" name="star1">
+          <label class="star1 star-41" for="star-41" style="font-size: 25px;"></label>
+          <input type="radio" class="star star-31" id="star-31" name="star1">
+          <label class="star1 star-31" for="star-31" style="font-size: 25px;"></label>
+          <input type="radio" class="star star-21" id="star-2" name="star1">
+          <label class="star1 star-21" for="star-21" style="font-size: 25px;"></label>
+          <input type="radio" class="star star-11" id="star-1" name="star1">
+          <label class="star1 star-11" for="star-11" style="font-size: 25px;"></label>
+        </form>
+   
+     
+      </div><hr>
+      <div><textarea placeholder="Viết đánh giá của bạn" class="texta" style="border: none;"></textarea>
+          <input type="file" id="file" name="myfiles[]" multiple  style="margin-left: 23px;" />
+          <button type="submit" class="btn-send">Gửi</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+
+</html>

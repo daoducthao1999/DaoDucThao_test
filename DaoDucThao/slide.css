@@ -1,0 +1,152 @@
+img.slide {
+    width: 400px;
+    height: 400px;
+}
+
+img.slide:not(:first-child) {
+    display: none;
+}
+
+.container {
+    width: 400px;
+    height: 426px;
+    margin: 0 auto;
+    position: relative;
+    padding: 5px;
+}
+
+/* 2 button change slide: prev and next */
+.btn-change {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+}
+
+#next {
+    right: 10px;;
+}
+
+#prev {
+    left: 10px;
+}
+
+/* 4 button corresponding to 4 image */
+.change-img {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/*button {
+    background: rgb(0, 153, 255);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+button.active {
+    background: rgb(7, 101, 163);
+    color: white;
+}*/
+
+.price p{
+	color: red;
+}
+
+.opacity{
+	color: black;
+	opacity: 0.2;
+}
+
+.yes{
+	width: 17px;
+	height: 17px;
+}
+
+.no{
+	width: 17px;
+	height: 17px;
+}
+
+
+
+.vitamin{
+	font-size: 15px;
+    opacity: 0.5;
+    margin-top: 5px;
+    margin-left: -24px;
+}
+
+.address{
+	margin-right: 333px;
+	margin-top: 30px;
+	border: 1px ridge silver;
+    height: 226px;
+    border-color: silver;
+}
+
+.address1{
+	width: 300px;
+    font-weight: bold;
+    height: 19px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.location{
+	font-size: 22px;
+    margin-left: 20px;
+}
+
+.cart{
+	font-size: 22px;
+    margin-left: 20px;
+}
+
+.fast{
+	font-size: 22px;
+    margin-left: 20px;
+}
+
+.evaluate{
+	margin-left: 233px;
+	font-size:27px;
+	font-weight: bold;
+	margin-top: 33px;
+}
+
+.evaluate1{
+	margin-left: 233px;
+	font-size:15px;
+	margin-top: 16px;
+}
+
+.evaluate2{
+	margin-left: 233px;
+	font-size:15px;
+    font-weight: bold;
+	margin-top: 16px;
+}
+
+.texta{
+    width: 489px;
+    height: 149px;
+    margin-top: 12px;
+    margin-left: 6px;
+}
+
+.btn-send{
+	background-color: red;
+    color: white;
+    height: 25px;
+    width: 75px;
+    margin-left: 92px;
+}
+
+ #quantity::placeholder {
+  color:red;
+}
